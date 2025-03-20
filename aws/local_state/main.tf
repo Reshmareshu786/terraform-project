@@ -10,7 +10,7 @@ required_version = ">= 1.2.0"
 }
 
 provider "aws" {
-  region  = "ap-south-1"
+  region  = "us-east-1"
 }
 
 resource "aws_instance" "terraform_server" {
